@@ -1,4 +1,4 @@
-import '../../../styles/Footer.css';
+import '../../../styles/footer.css';
 import { HashLink } from "react-router-hash-link";
 import Logo from '../Logo';
 import { AiFillInstagram, AiFillLinkedin, AiFillTwitterSquare, AiFillGithub } from "react-icons/ai"
