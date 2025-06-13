@@ -1,5 +1,5 @@
 import aboutImg from '../../assets/about-img.png'
-import resume from '../../assets/file/resume.pdf'
+import resume from '../../assets/file/Resume.pdf'
 import '../../styles/about.css'
 function About() {
     return (
