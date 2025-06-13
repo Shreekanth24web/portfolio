@@ -6,8 +6,7 @@ import shop from '../../assets/e-commerce.jpg'
 import wanderlust from '../../assets/wanderlust-img.png'
 import otp from '../../assets/otp.jpg'
 import todo from '../../assets/to-do-App.jpg'
-import employee from '../../assets/Employe-data-table.jpg'
-import demo from '../../assets/home-img.png'
+import employee from '../../assets/Employe-data-table.jpg' 
 import '../../styles/projects.css'
 function Projects() {
     return (
