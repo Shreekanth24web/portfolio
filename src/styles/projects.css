@@ -44,7 +44,7 @@
     width: 450px;
     margin-top: 150px;
     background-color: #f5f5f5d7;
-    border-radius: 0px 0px 50px 0px;
+    border-radius: 0px 0px 30px 0px;
     letter-spacing: 1px;
     line-height: 22px;
     text-align: justify;
@@ -94,9 +94,8 @@
     }
 
     .card-body p {
-        width: 300px;
+        width: 450px;
         overflow: scroll;
-
     }
 }
 
@@ -131,7 +130,7 @@
     }
 
     .card-body p {
-        width: 300px;
+        width: 450px;
         overflow: scroll;
 
     }
@@ -169,7 +168,7 @@
     }
 
     .card-body p {
-        width: 300px;
+        width: 340px;
         overflow: scroll;
 
     }
@@ -207,7 +206,7 @@
     }
 
     .card-body p {
-        width: 300px;
+        width: 340px;
         overflow: scroll;
 
     }
@@ -243,7 +242,7 @@
         margin-bottom: 20px;
     }
 
-    .card-body p {
+    .card-body p { 
         width: 300px;
         overflow: scroll;
 
