@@ -1,0 +1,40 @@
+.logo{
+    margin-left: 150px;
+    color: transparent;
+    background:linear-gradient(90deg,#4c4cef , #b04feb); 
+    background-clip:text ;
+    cursor: pointer;
+ 
+}
+
+@media(max-width:1280px){
+    .logo{
+        margin-left: 50px;
+    }
+}
+@media(max-width:1024px){
+    .logo{
+        margin-left: 50px;
+    }
+}
+@media(max-width:768px){
+    .logo{
+        margin-left: 50px;
+    }
+}
+
+@media(max-width:412px){
+    .logo{
+        margin-left: -150px;
+    }
+}
+@media(max-width:375px){
+    .logo{
+        margin-left: -150px;
+    }
+}
+
+
+ 
+ 
+ 

@@ -1,0 +1,251 @@
+.projects {
+    border: 2px solid #f5f5f5;
+}
+
+.projects h1 {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.card {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    place-items: center;
+    flex-wrap: wrap;
+}
+
+
+.card-body {
+    height: 300px;
+    width: 450px;
+    border: 0px solid #4c4cef;
+    margin-bottom: 30px;
+    background-color: #fff;
+    cursor: pointer;
+    position: relative;
+    filter: drop-shadow(0px 0px 3px #a34cef);
+    border-radius: 50px 0px 50px 0px;
+}
+
+.card-body img {
+    height: 300px;
+    width: 450px;
+    border-radius: 50px 0px 50px 0px;
+}
+
+.card-body p {
+    position: absolute;
+    top: 0;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 14px;
+    height: 150px;
+    width: 450px;
+    margin-top: 150px;
+    background-color: #f5f5f5d7;
+    border-radius: 0px 0px 50px 0px;
+    letter-spacing: 1px;
+    line-height: 22px;
+    text-align: justify;
+    opacity: 0;
+    color: #6b7280;
+}
+
+.card-body p:hover {
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.card-body:hover {
+    filter: drop-shadow(0px 0px 10px #4c4cefae);
+    transition: all 0.3s ease-in;
+}
+
+@media(max-width:1280px) {
+    .projects {
+        border: 1px solid #f5f5f5;
+      
+    }
+
+    .projects h1 {
+        margin-top: 90px;
+    }
+
+    .card {
+        grid-template-columns: auto auto; 
+        place-items: center;
+        margin-top: 20px; 
+        margin-bottom: 0px; 
+    }
+
+    .card-body img {
+        height: 300px;
+        width: 450px;
+        border-radius: 30px 0px 30px 0px;
+
+    }
+
+    .card-body {
+        width: 450px;
+        border-radius: 30px 0px 30px 0px;
+        margin-bottom: 30px;
+    }
+
+    .card-body p {
+        width: 300px;
+        overflow: scroll;
+
+    }
+}
+
+@media(max-width:1024px) {
+    .projects {
+        border: 1px solid #f5f5f5;
+      
+    }
+
+    .projects h1 {
+        margin-top: 90px;
+    }
+
+    .card {
+        grid-template-columns: auto auto; 
+        place-items: center;
+        margin-top: 20px; 
+        margin-bottom: 0px; 
+    }
+
+    .card-body img {
+        height: 300px;
+        width: 450px;
+        border-radius: 30px 0px 30px 0px;
+
+    }
+
+    .card-body {
+        width: 450px;
+        border-radius: 30px 0px 30px 0px;
+        margin-bottom: 30px;
+    }
+
+    .card-body p {
+        width: 300px;
+        overflow: scroll;
+
+    }
+}
+
+@media(max-width:768px) {
+    .projects {
+        border: 1px solid #f5f5f5;
+
+    }
+
+    .projects h1 {
+        margin-top: 90px;
+    }
+
+    .card {
+        flex-wrap: nowrap;
+        display: grid;
+        grid-template-columns: auto auto;
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+
+    .card-body img {
+        height: 300px;
+        width: 340px;
+        border-radius: 30px 0px 30px 0px;
+
+    }
+
+    .card-body {
+        width: 340px;
+        border-radius: 30px 0px 30px 0px;
+        margin-bottom: 20px;
+    }
+
+    .card-body p {
+        width: 300px;
+        overflow: scroll;
+
+    }
+}
+
+@media(max-width:412px) {
+    .projects {
+        border: 1px solid #f5f5f5;
+
+    }
+
+    .projects h1 {
+        margin-top: 90px;
+    }
+
+    .card {
+        flex-wrap: nowrap;
+        grid-template-columns: auto;
+        place-items: center;
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+
+    .card-body img {
+        height: 300px;
+        width: 340px;
+        border-radius: 30px 0px 30px 0px;
+
+    }
+
+    .card-body {
+        width: 340px;
+        border-radius: 30px 0px 30px 0px;
+        margin-bottom: 20px;
+    }
+
+    .card-body p {
+        width: 300px;
+        overflow: scroll;
+
+    }
+}
+
+@media(max-width:375px) {
+    .projects {
+        border: 1px solid #f5f5f5;
+
+    }
+
+    .projects h1 {
+        margin-top: 90px;
+    }
+
+    .card {
+        grid-template-columns: auto;
+        place-items: center;
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+
+    .card-body img {
+        height: 300px;
+        width: 300px;
+        border-radius: 30px 0px 30px 0px;
+
+    }
+
+    .card-body {
+        width: 300px;
+        border-radius: 30px 0px 30px 0px;
+        margin-bottom: 20px;
+    }
+
+    .card-body p {
+        width: 300px;
+        overflow: scroll;
+
+    }
+}
