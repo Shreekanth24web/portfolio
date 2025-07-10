@@ -1,0 +1,21 @@
+ 
+import Hero from '../Hero/Hero'
+import About from '../About/About'
+import Skills from '../Skills/Skills'
+import Projects from '../Projects/Projects'; 
+import Contact from '../Contact/Contact';
+import LetsConnect from '../Connect/LetsConnect';
+function Pages() {
+    return ( 
+        <div>
+            <Hero/>
+            <LetsConnect/>
+            <About/>
+            <Skills/>
+            <Projects/>
+            <Contact/>
+        </div>
+     );
+}
+
+export default Pages;

@@ -1,130 +1,165 @@
-.navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #fff;
-    padding: 30px 0px 20px 0px;
-    flex-wrap: wrap;
-    position: sticky;
-    top: 0;
-    width: 100%;
-    z-index: 1;
-    box-shadow: 0px 1px 10px #cccccc;
+.logo {
+    font-size: 2rem;
+    color: transparent;
+    background: linear-gradient(90deg, #4c4cef, #b04feb);
+    background-clip: text;
+    cursor: pointer;
+
 }
 
-.nav {
+.logo:hover {
+    color: transparent;
+    background: linear-gradient(90deg, #4c4cef, #b04feb);
+    background-clip: text;
+    opacity: 0.8;
+}
+
+.navbar {
+    background-color: #fff;
+    box-shadow: 0px 1px 10px #cccccc;
+    z-index: 1;
+
+}
+
+.navbar-nav {
+    margin-left: 500px;
+    gap: 20px;
+}
+
+.nav-item {
     display: flex;
     align-items: center;
-    gap: 30px;
-    margin-right: 200px;
 }
 
 .home-link {
     color: #4c4cef;
+    text-decoration: none;
 }
 
-.navlink:hover {
-    color: #6c35ef;
+.nav-link {
+    color: #888 !important;
 }
 
-@media(max-width:1280px) {
-    .navbar {
-        padding: 20px;
-    }
+.nav-link:hover {
+    color: #6c35ef !important;
+    text-decoration: none !important;
+}
 
-    .nav {
-        gap: 25px;
-        margin-right: 70px;
-    }
-
-    .navlink,
-    .home-link {
-        font-size: 16px;
-    }
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
 }
 
 @media(max-width:1024px) {
-    .navbar {
-        padding: 20px;
-    }
-
-    .nav {
-        gap: 25px;
-        margin-right: 70px;
-    }
-
-    .navlink,
-    .home-link {
-        font-size: 16px;
-    }
-}
-
-@media(max-width:768px) {
-    .navbar {
+    .navbar-nav { 
+        margin-left: 300px !important;
         gap: 10px;
-        padding: 10px;
-        margin: 0px;
+    }
+     .navbar-toggler {
+        font-size: 10px !important;
+        padding: 0px 3px;
+        border: 1px solid #666 !important;
     }
 
-    .nav {
-        margin: 0px;
-        gap: 18px;
-        margin-right: 20px;
-    }
-
-    .navlink,
-    .home-link {
+    .navbar-toggler-icon { 
         font-size: 14px;
     }
 
 }
+@media(max-width:1200px) {
+    .navbar-nav {
+        margin-left: 400px;
+        gap: 15px;
+    }
+     .navbar-toggler {
+        font-size: 10px !important;
+        padding: 0px 3px;
+        border: 1px solid #666 !important;
+    }
 
+    .navbar-toggler-icon { 
+        font-size: 14px;
+    }
+
+}
+@media(max-width:820px) {
+    .navbar-nav {
+        margin-left: 0px;
+        gap: 0px;
+    }
+     .navbar-toggler {
+        font-size: 10px !important;
+        padding: 0px 3px;
+        border: 1px solid #666 !important;
+    }
+
+    .navbar-toggler-icon { 
+        font-size: 14px;
+    }
+
+}
+@media(max-width:768px) {
+    .navbar-nav {
+        margin-left: 0px;
+        gap: 0px;
+    }
+     .navbar-toggler {
+        font-size: 10px !important;
+        padding: 0px 3px;
+        border: 1px solid #666 !important;
+    }
+
+    .navbar-toggler-icon { 
+        font-size: 14px;
+    }
+
+}
+@media(max-width:575px) {
+    .navbar-nav {
+        margin-left: 0px !important;
+        gap: 0px;
+    }
+     .navbar-toggler {
+        font-size: 10px !important;
+        padding: 0px 3px;
+        border: 1px solid #666 !important;
+    }
+
+    .navbar-toggler-icon { 
+        font-size: 14px;
+    }
+
+}
 @media(max-width:412px) {
-    .navbar {
-        flex-wrap: nowrap;
-        flex-direction: column;
-        gap: 10px;
-        padding: 10px;
-        margin: 0px;
+    .navbar-nav {
+        margin-left: 0px;
+        gap: 0px;
+    }
+     .navbar-toggler {
+        font-size: 10px !important;
+        padding: 0px 3px;
+        border: 1px solid #666 !important;
     }
 
-    .nav {
-        margin: 0px;
-        gap: 18px;
-        margin-right: 20px;
-    }
-
-    .navlink {
-        font-size: 12px;
-    }
-
-    .home-link {
+    .navbar-toggler-icon { 
         font-size: 14px;
     }
 
 }
 
 @media(max-width:375px) {
-    .navbar {
-        flex-wrap: nowrap;
-        flex-direction: column;
-        gap: 10px;
-        padding: 10px;
-        margin: 0px;
+    .navbar-nav {
+        margin-left: 0px;
+        gap: 0px;
     }
 
-    .nav {
-        margin: 0px;
-        gap: 18px;
-        margin-right: 20px;
+    .navbar-toggler {
+        font-size: 10px !important;
+        padding: 0px 3px;
+        border: 1px solid #666 !important;
     }
 
-    .navlink {
-        font-size: 12px;
-    }
-
-    .home-link {
+    .navbar-toggler-icon { 
         font-size: 14px;
     }
-
 }

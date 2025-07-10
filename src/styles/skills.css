@@ -1,39 +1,36 @@
-.skills {
-    border: 1px solid #f5f5f5;
-}
-
-.skills h1 {
-    margin-top: 120px;
-    text-align: center;
-}
-
-.skills-logos {
-    margin-top: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    text-align: center;
-    margin-bottom: 50px;
-    flex-wrap: wrap;
+ 
+.text-head button{
+    border: none;
+    border-radius: 50px;
+    padding: 4px 50px; 
+    cursor: auto;
+    color: #fff;
+    background: linear-gradient(90deg, #4c4cef, #a34cef);
+    box-shadow: 0px 0px 4px 3px #a34cef;
 
 }
 
-.skill-logo {
-    height: 8rem;
-    width: 8rem;
-    border-radius: 50%;
-    background-color: #000;
+.skill-logo { 
+    margin-top: 40px;
+    border-radius:10px;
+    padding-top: 1rem;
+    background-color: #111;
     color: #fff;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    filter: drop-shadow(6px 4px 2px #333);
+    filter: drop-shadow(0px 0px 4px #4c4cef);
     flex-wrap: wrap;
+    transform: rotate(20deg);  
+    transition: all 1s;
+    height: 150px; 
+    box-shadow: 0px 0px 2px 1px #a34cef;
+
 }
 
-.skills-logos p {
+.skill-logo p {
     margin-top: 10px;
     font-weight: normal;
     letter-spacing: 1px;
@@ -42,125 +39,73 @@
 .skill-logo:hover {
     background-color: #fff;
     color: #000;
-    filter: drop-shadow(0px 0px 5px #b04feb);
+    filter: drop-shadow(0px 0px 5px #b04feb);  
+    transition:all .3s ease-in-out;
+    height: 85px;
+    transform: rotate(0deg);  
+    transition: all 1s;
 }
+ 
 
 .icon {
     font-size: 2.5rem;
 }
 
+ 
 @media(max-width:1280px) {
-
-    .skills-logos {
+    .text-head button{
         margin-top: 20px;
-        flex-wrap: nowrap;
-        display: grid;
-        grid-template-columns: auto auto auto;
-        place-items: center;
-        gap: 30px;
-        margin-bottom: 0px;
+        margin-bottom: 20px;
     }
-
-    .skills-logos p {
-        font-size: 16px;
+    .skill-section{
+        display: grid ;
+        grid-template-columns: auto auto; 
+        gap: 60px; 
+    }  
+    .skill-logo{
+        margin-bottom: 100px !important; 
     }
-}
-
+} 
 @media(max-width:1024px) {
-
-    .skills-logos {
+    .text-head button{
         margin-top: 20px;
-        flex-wrap: nowrap;
-        display: grid;
-        grid-template-columns: auto auto auto;
-        place-items: center;
-        gap: 30px;
-        margin-bottom: 0px;
+        margin-bottom: 20px;
     }
-
-    .skills-logos p {
-        font-size: 16px;
+    .skill-section{
+        display: grid ;
+        grid-template-columns: auto auto; 
+        gap: 60px; 
+    }  
+    .skill-logo{
+        margin-bottom: 90px !important; 
     }
+} 
+@media(max-width:768px){
+    
+    .skill-section{
+        display: grid ;
+        grid-template-columns: auto auto; 
+        gap: 60px; 
+    }
+    
 }
-
-@media(max-width:768px) {
-    .skills {
-        border: 1px solid #f5f5f5;
-    }
-
-    .skills h1 {
-        margin-top: 90px;
-    }
-
-    .skills-logos {
-        margin-top: 20px;
-        flex-wrap: nowrap;
-        display: grid;
-        grid-template-columns: auto auto auto;
-        place-items: center;
-        gap: 30px;
-        margin-bottom: 0px;
-    }
-
-    .skills-logos p {
-        font-size: 14px;
-    }
-}
-
-@media(max-width:412px) {
-    .skills {
-        border: 1px solid #f5f5f5;
-    }
-
-    .skills h1 {
-        margin-top: 90px;
-    }
-
-    .skills-logos {
-        margin-top: 20px;
-        flex-wrap: nowrap;
-        display: grid;
-        grid-template-columns: auto auto auto;
-        place-items: center;
-        gap: 30px;
-        margin-bottom: 0px;
-    }
-
-    .skill-logo {
-        height: 6rem;
-        width: 6rem;
-    }
-
-    .skills-logos p {
-
-        font-size: 10px;
-    }
-
-    .icon {
-        font-size: 1.8rem;
-    }
-}
-
 @media(max-width:375px) {
-    .skills {
-        border: 1px solid #f5f5f5;
-    }
-
-    .skills h1 {
-        margin-top: 90px;
-    }
-
-    .skills-logos {
-        margin-top: 20px;
-        flex-wrap: nowrap;
+      
+    .skill-section{
         display: grid;
-        grid-template-columns: auto auto;
-        place-items: center;
-        gap: 30px;
-        margin-bottom: 0px;
+        grid-template-columns: auto auto;  
     }
-
-    .skills-logos p {
-        font-size: 14px;
+    .skill-logo{
+        margin: 0px;
     }
-}
+} 
+@media(max-width:320px) {
+      
+    .skill-section{
+        display: grid;
+        grid-template-columns: auto ;  
+    }
+    .skill-logo{
+        margin: 0px;
+    }
+} 
