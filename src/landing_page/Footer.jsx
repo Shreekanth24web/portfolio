@@ -13,8 +13,8 @@ function Footer() {
                     </div>
                     <p className='footer-text'>@MERN stack developer </p>
                     <div className="col mb-3">
-                        <a href="https://www.linkedin.com" target='_blank'> < AiFillLinkedin className='icon-footer' color="#0077B5" /></a>
-                        <a href="https://github.com" target='_blank'> <AiFillGithub className='icon-footer' color="#333" /></a>
+                        <a href="https://www.linkedin.com/in/hshreekantha" target='_blank'> < AiFillLinkedin className='icon-footer' color="#0077B5" /></a>
+                        <a href="https://github.com/Shreekanth24web" target='_blank'> <AiFillGithub className='icon-footer' color="#333" /></a>
                     </div>
 
                 </div>
