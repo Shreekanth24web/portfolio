@@ -7,6 +7,7 @@ import bulb from '../../assets/bulb.jpg'
 import otp from '../../assets/otp.jpg'
 import todo from '../../assets/to-do-App.jpg'
 import employee from '../../assets/Employe-data-table.jpg'
+import zerodha from '../../assets/zerodha-clone.jpg'
 import '../../styles/projects.css'
 
 function Projects() {
@@ -17,6 +18,14 @@ function Projects() {
             </h1>
             <div className="row mt-5 projects-cards">
 
+                <div className="card-body mb-4">
+                    <a href="https://zerodha-frontend-9jyg.onrender.com/" target="_blank" rel="noopener noreferrer">
+                        <img src={zerodha} alt="zerodha_img_Error" />
+                        <p>
+                            Zerodha Trading Platform Clone – A full‑stack MERN application replicating Zerodha’s trading interface. Features modules like Dashboard, Orders, Holdings, Watchlist, Funds, and Positions, with secure JWT‑based login/logout. Built REST APIs for real‑time order management and data visualization using charts. Deployed on Render.
+                        </p>
+                    </a>
+                </div>
                 <div className="card-body mb-4">
                     <a href="https://healthcare-oi3r.onrender.com" target="_blank" rel="noopener noreferrer">
                         <img src={health} alt="health_img_Error" />
