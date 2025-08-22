@@ -8,6 +8,7 @@ import otp from '../../assets/otp.jpg'
 import todo from '../../assets/to-do-App.jpg'
 import employee from '../../assets/Employe-data-table.jpg'
 import zerodha from '../../assets/zerodha-clone.jpg'
+import askGPT from '../../assets/askGPT-img.png'
 import '../../styles/projects.css'
 
 function Projects() {
@@ -26,21 +27,34 @@ function Projects() {
                         </p>
                     </a>
                 </div>
+
                 <div className="card-body mb-4">
-                    <a href="https://healthcare-oi3r.onrender.com" target="_blank" rel="noopener noreferrer">
-                        <img src={health} alt="health_img_Error" />
+                    <a href="https://ask-gpt-web.vercel.app/login" target='_blank'>
+                        <img src={askGPT} alt="todo_img_Error" />
                         <p>
-                            This is a static, responsive healthcare dashboard built using React. It showcases a clean UI with well-structured components for visualizing health information, appointments, and activity. Though it's a frontend-only page, it effectively demonstrates modern layout and design practices.
+                            Built an AI chat app using MERN stack, integrating Google Gemini API for real-time text & image generation.
+                            Implemented JWT-based authentication & authorization for secure and personalized user sessions.
+                            Designed a responsive UI with smooth API integration for seamless frontend-backend-Gemini communication.
                         </p>
                     </a>
                 </div>
 
+                
                 <div className="card-body mb-4">
                     <a href="https://wanderlust-n662.onrender.com/listings" target='_blank'>
                         <img src={wanderlust} alt="wanderlust_img_Error" />
                         <p>
                             This is a full-stack MERN application with complete CRUD operations, enabling users to create, read, update, and delete property listings. It features dynamic search, responsive UI, and seamless navigation for a real-time travel booking experience.
 
+                        </p>
+                    </a>
+                </div>
+
+                <div className="card-body mb-4">
+                    <a href="https://healthcare-oi3r.onrender.com" target="_blank" rel="noopener noreferrer">
+                        <img src={health} alt="health_img_Error" />
+                        <p>
+                            This is a static, responsive healthcare dashboard built using React. It showcases a clean UI with well-structured components for visualizing health information, appointments, and activity. Though it's a frontend-only page, it effectively demonstrates modern layout and design practices.
                         </p>
                     </a>
                 </div>
@@ -111,7 +125,7 @@ function Projects() {
                         </p>
                     </a>
                 </div>
-
+                 
             </div>
         </div>
     );
